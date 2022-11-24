@@ -1,0 +1,13 @@
+.searchbtn{
+    background: transparent ;
+}
+
+.navbar-nav{
+    margin-left: 70%;
+}
+
+@media(max-width: 1000px){
+    .navbar-nav{
+        margin-left: 0;
+    }
+}

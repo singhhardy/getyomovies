@@ -1,0 +1,98 @@
+.movie-page{
+    margin: 20px;
+    width: 80%;
+    padding: 20px;
+}
+
+.movie-text h1{
+    color: #f3f3f3;
+}
+
+.movie-text p{
+    color: #777;
+    padding: 20px 0;
+}
+
+.movie-text img{
+    height: 20%;
+    width: 80%;
+}
+
+.Movie-info{
+    margin-top: 10%;
+}
+
+.Movie-info h1{
+    padding: 20px 0;
+    color: rgb(0, 116, 22);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.info h2{
+    color: #444;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info p{
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+.d-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.d-links a{
+    padding: 10px;
+    background: rgb(0, 116, 22);
+    margin: 20px;
+    text-align: center;
+    width: 40%;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.dlink{
+    visibility: hidden;
+}
+
+.dlink 
+
+.d-links a:hover{
+    background: rgb(1, 81, 16);
+}
+
+@media(max-width: 786px){
+    .info h2{
+        font-size: 20px;
+    }
+    .info p{
+        font-size: 20px;
+    }
+
+    .d-links a{
+        font-size: 20px;
+        width: 60%;
+    }
+}
+
+@media(max-width: 400px){
+    .info h2{
+        font-size: 10px;
+    }
+    .info p{
+        font-size: 10px;
+    }
+    .d-links a{
+        font-size: 10px;
+    }
+}

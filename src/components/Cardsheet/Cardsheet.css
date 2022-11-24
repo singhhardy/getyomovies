@@ -1,0 +1,22 @@
+.cards-grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.searcherror{
+    display: none;
+}
+
+@media(max-width: 786px){
+    .cards-grid{
+        grid-template-columns: 2fr 50%;
+    }
+}
+
+@media(max-width: 450px){
+    .cards-grid{
+        grid-template-columns: 100%;
+    }
+}
