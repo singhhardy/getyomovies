@@ -8,7 +8,7 @@ const CardsData = [
         size: '2GB, 1GB, 500MB',
         stars: 'Dwayne Johnson',
         quality: '1080px',
-        download_link: 'https://www.instagram.com',
+        download_link: 'https://jiocdn.ydc1wes.me/v/01/00003/73h0udvsou8v_h/Prmovies-Black_Adam_Hindi.mp4?t=ky4E3YMMQt6MqtFRCvH9xL-nTg0khB4CzFv0nksRTIU&s=1669371893&e=14400&f=19906&sp=1024&i=0.0',
         watch_online: 'https://sflix.pro/movie/black-adam-lxkk3/1-full',
         language: 'English, Hindi',
         image:<img src="https://bondwithbrands.com/wp-content/uploads/2022/06/Untitled-design-2022-06-03T105025.760.jpg" className="card-img-top" />,

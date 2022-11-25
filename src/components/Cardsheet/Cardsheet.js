@@ -4,14 +4,14 @@ import Card from "../Card/Card";
 import { Pagination } from "../Pagination/Pagination";
 import "./Cardsheet.css";
 
-function Cardsheet() {
+function Cardsheet( { }) {
   const [search, setSearch] = useState('')
 
   const [cards, setcards] = useState(CardsData);
   
   // pagination
   const [currentPage, setCurrentPage] = useState(1);
-  const [cardsPerPage] = useState(4);
+  const [cardsPerPage] = useState(6);
 
   // get current cards
   const indexOfLastCard = currentPage * cardsPerPage;
@@ -36,19 +36,23 @@ function Cardsheet() {
   return (
   
     <>
-      <form className="d-flex" role="search">
-        <input
-          onChange={(e) => handlesearch(e)}
-          className="form-control me-2 bg-transparent text-light align-center w-50  mx-4 my-5"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        {/* <button className="btn searchbtn btn-outline-success" type="submit">
-          Search
-        </button> */}
-      </form>
-      <h1 className="m-4 text-danger border border-danger text-center p-4 searcherror">Search Not found</h1>
+            {/* <h1 className="m-4 text-danger border border-danger text-center p-4 searcherror">Search Not found</h1> */}
+      <form className="d-flex m-4 flex-center" role="search">
+
+              <input
+                  onChange={(e) => handlesearch(e)}
+                className="form-control me-4 bg-transparent text-light searchinput"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <div className="dropdown">
+              <div className="dropdown-row"></div>
+              </div>
+              {/* <button className="btn searchbtn btn-outline-success">
+                Search
+              </button> */}
+            </form>
 
       <div className="cards-grid">
         <Card cards={currentCard} search={search} />

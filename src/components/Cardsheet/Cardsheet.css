@@ -9,13 +9,25 @@
     display: none;
 }
 
-@media(max-width: 786px){
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex input{
+    width: 40%;
+}
+
+
+@media(max-width: 1000px){
     .cards-grid{
         grid-template-columns: 2fr 50%;
     }
 }
 
-@media(max-width: 450px){
+@media(max-width: 500px){
     .cards-grid{
         grid-template-columns: 100%;
     }
