@@ -267,7 +267,7 @@ const CardsData = [
         download_link: '',
         watch_online: 'https://sflix.pro/movie/thor-ragnarok-qk7w5/1-full',
         language: 'English, Hindi',
-        image:<img src="https://images.wallpapersden.com/image/wxl-thor-ragnarok-poster-2017_59563.jpg" className="card-img-top" />,
+        image:<img src="https://c4.wallpaperflare.com/wallpaper/336/431/674/thor-ragnarok-2017-poster-fantasy-movie-wallpaper-preview.jpg" className="card-img-top" />,
         Heading: 'Thor Ragnarok | Full HD Movie',
         Description: 'Four years after defeating the Dark Elves and two years after the fight in Sokovia, Thor (Chris Hemsworth) now finds himself trapped on the other side of the universe on the wacky planet of Sakaar. Meanwhile, a new threat rises as the evil Hela, Goddess of Death (Cate Blanchett) takes over Asgard and plans to conquer the universe. In order to get home, Thor must compete in a gladiator match against the defending champion of the Grandmaster (Jeff Goldblum). Little does Thor know is that the champion is his old friend and fellow Avenger, The Incredible Hulk (Mark Ruffalo). Teaming with The Incredible Hulk and his deceptive brother Loki (Tom Hiddleston), Thor must return home to Asgard in time to stop Hela and prevent the approaching Ragnarök, the apocalyptic destruction of Asgard.',
     },
