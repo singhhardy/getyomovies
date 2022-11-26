@@ -43,10 +43,13 @@ function Dpage() {
                 <h2>Quality:</h2><p>{movie.quality}</p>
                 </div>
             </div>
-            <hr></hr>
+            <hr className='bg-light'></hr>
             <div className='d-links'>
-            <a href={movie.download_link} target="_blank" className="btn btn-success">Download Now</a>
+            {/* <a href={movie.download_link} target="_blank" className="btn btn-success">Download Now</a> */}
             <a href={movie.watch_online} target="_blank" className="btn btn-success">Watch Now</a>
+            </div>
+            <div className='keywords'>
+              <p>{movie.seo}</p>
             </div>
     </div>
     <Footer />
