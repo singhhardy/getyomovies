@@ -567,7 +567,7 @@ const CardsData = [
 
     // DC MOVIES
 
-
+    
     
 ]
 
