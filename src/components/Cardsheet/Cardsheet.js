@@ -55,6 +55,7 @@ function Cardsheet( { }) {
             </form>
 
       <div className="cards-grid">
+        
         <Card cards={currentCard} search={search} />
       </div>
       <div className="paginate">

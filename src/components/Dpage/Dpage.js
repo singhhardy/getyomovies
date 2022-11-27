@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import Footer from '../footer/Footer';
 import './Dpage.css'
 import CardsData from '../../Data/CardsData';
-
+import Scrolltotop from '../Scrolltotop'
 
 
 function Dpage() {
@@ -19,11 +19,14 @@ function Dpage() {
 
     return (
     <>
+      <Scrolltotop />
         <div className='movie-page'>
         <div className='movie-text'>
             <h1>{movie.Heading}</h1>
             <p>{movie.Description}</p>
-            <div>{movie.image}</div>
+            <div className='trailer-video video-responsive'>
+            <iframe width="100%" height="500px" src={movie.trailer} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            </div>
             </div>
             <div className='Movie-info'>
             <h1>MOVIE INFO</h1>
@@ -43,12 +46,13 @@ function Dpage() {
                 <h2>Quality:</h2><p>{movie.quality}</p>
                 </div>
             </div>
-            <hr className='bg-light'></hr>
+            <div className='movie-image'>{movie.image}</div>
             <div className='d-links'>
             {/* <a href={movie.download_link} target="_blank" className="btn btn-success">Download Now</a> */}
             <a href={movie.watch_online} target="_blank" className="btn btn-success">Watch Now</a>
             </div>
             <div className='keywords'>
+            <hr className='bg-light'></hr>
               <p>{movie.seo}</p>
             </div>
     </div>

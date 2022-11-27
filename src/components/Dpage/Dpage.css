@@ -8,6 +8,10 @@
     color: #f3f3f3;
 }
 
+.movie-image{
+    width: 70%;
+}
+
 .movie-text p{
     color: #777;
     padding: 20px 0;
