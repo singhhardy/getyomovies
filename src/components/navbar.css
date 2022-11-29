@@ -1,9 +1,15 @@
-.searchbtn{
-    background: transparent ;
-}
 
 .navbar-nav{
     margin-left: 70%;
+}
+
+.navbar{
+    background: rgba(0,0,0,0.3);
+}
+
+.nav-link{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media(max-width: 1000px){

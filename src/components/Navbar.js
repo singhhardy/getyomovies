@@ -4,7 +4,7 @@ import './navbar.css'
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-transparent sticky-top">
+      <nav className="navbar navbar-expand-lg  sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand text-light fw-bold" href="/">
             GetYoMovies
@@ -23,16 +23,16 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link text-light active" aria-current="page" href="/">
+                <a className="nav-link fw-bold text-light active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link text-light" href="/About">
+                <a className="nav-link fw-bold text-light" href="/About">
                   About
                 </a>
               </li>
-              <li className="nav-item text-light dropdown">
+              <li className="nav-item fw-bold text-light dropdown">
                 <a
                   className="nav-link dropdown-toggle text-light"
                   href="#"
@@ -63,7 +63,7 @@ function Navbar() {
                 </ul>
               </li>
               <li className="nav-item text-light">
-                <a className="nav-link text-light">Blog</a>
+                <a href="/Blog" className="nav-link  text-light">Blog</a>
               </li>
             </ul>
             {/* <form className="d-flex" role="search">

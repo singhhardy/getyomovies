@@ -12,7 +12,7 @@ function Carousel() {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="DC.jpg" class="d-block w-100 " alt="..."/>
+      <img src="showcase1.jpg" class="d-block w-100 " alt="..."/>
       <div className="carousel-caption d-none d-md-block ">
         <h5 className='car-text'>EVERY DC MOVIE</h5>
         <p className='car-text'>Get All Latest DC movies free and Download it on your Mobile</p>
