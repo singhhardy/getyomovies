@@ -63,7 +63,7 @@ function Navbar() {
                 </ul>
               </li>
               <li className="nav-item text-light">
-                <a href="/Blog" className="nav-link  text-light">Blog</a>
+                <a href="https://getyomovies.blogspot.com" target="_blank" className="nav-link  text-light">Blog</a>
               </li>
             </ul>
             {/* <form className="d-flex" role="search">
